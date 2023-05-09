@@ -78,3 +78,4 @@ The goal of this phase is to assign the papers in a way which satisfies as many 
 1. Should be track reviews et cetera after their deadlines have expired
 1. How should the associate receive the reviews of the batch of papers. In what form should they be downloadable
 1. Reminder notifications if a deadline is approaching
+1. Ability to add full-text comments to a Feedback?
