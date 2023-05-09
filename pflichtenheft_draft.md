@@ -1,0 +1,74 @@
+# Requirements
+## Functional
+### Mandatory
+#### General
+- Each faculty member owns zero or one accounts
+- Each member can act as an author as well as a reviewer
+- A member has an overview of all reviews that have been requested from him and have not yet been reviewed by him
+
+#### Review
+- k
+
+##### External Review
+-
+...
+
+##### Internal Review
+- After a deadline has expired, the paper can be viewed by the author alongside all feedbacks the paper has received
+...
+
+### Optional
+- 
+
+### Non-Functional
+- Neither the number of accounts, nor the number of papers in the system is limited
+- The number of reviews any member can do and request is not limited
+- The number of papers per authors is unlimited
+<!-- TODO: Are these functional or not? -->
+
+## Diferentiation criteria
+- there will only be one distribution mechanism implemented
+- There will be no tracking or history of past reviews
+- third
+
+
+# Definitions
+1. **Researcher**: A member of the scientific community who writes research papers.
+1. **Faculty**: The administrative entity that the system is deployed for
+1. **(Faculty) Member**: A researcher of the faculty the system is deployed under
+1. **Account**: Virtual representation of a faculty member that only the corresponding member can access.
+1. **(Research) Paper**: A research paper, written by either a faculty member or a an external researcher
+1. **Abstract**: The official summary of a paper. The abstract is part of the paper itself.
+1. **Author (of a paper)**: The person who wrote the paper
+    1. **Member author**: An author who is also a member
+    1. **External author**: An author who is not a member
+1. **System**: The parts of the application that is under development. Includes the accounts as well as the servers, database systems and the deployed webiste.
+1. **Review**: The process of reading a paper and forming a diverse opion on aspects of the quality of the paper. A review ends in feedback by the reviewer to the author.
+1. **Deadline**: A date before which a review has to be completed by an assignee.
+1. **Assignee of a paper**: A Member which was asked by the author of the paper to review that paper
+1. **Reviewer of a paper**: A member who intends to review a given paper
+1. **Feedback Form**: A standartized form for given feedback. It constitutes of standardized questions which must be scored.
+1. **Feedback**: A filled-out Feedback Form which resembles the opinion formed after a review
+1. **Review Request**: The request of an author to one or more assignees for a paper he has written.
+1. **Internal Review**: A review that is requested of a faculty member by another faculty member for a paper which he has written
+1. **External Review**: A review that is requested by a conference from a faculty member. During external review, the members don't have the option to deny review requests.
+Therefore, in this context, the assignee and the reviewer of a paper are always identical
+1. **Conference Associate**: A person at the faculty who receives the batch of papers from any particular conference
+1. **External Review Process**: The process of a conference requesting external review of a batch of papers from a faculty
+1. **Conference**: An entity which receives papers and distributes those papers to faculties, requesting external reviews of all the papers they send to a faculty
+1. **Batch of papers (for external review)**: A group of papers which have been collectively sent to a faculty by a conference for external review
+1. **Paper Distribution**: A phase of an external review process which comes after the batch of papers was sent to the faculty and before the papers have been assigned.
+The goal of this phase is to assign the papers in a way which satisfies as many assignees as possible
+1. **Paper Distribution Mechanism**: An algorithm which calculates the assignment of a batch of papers to the reviewers. This mechanism ends, i.e. executes the paper distribution
+
+# Questions
+- How to handle admin
+- Can we get access to a gitlab instance please???
+- Should internal reviewers accept or reject reviews? -> Dictates the definition of assignee and reviewer
+- Exemplary functional specification, website is down
+- Observation: What entity should a conference resemble? Possibilities:
+    - A conference could be registered along the associate who receives batches of papers for that conference
+    - A conference could semantically just be a string which is attached to a batch of papers when an associate (who is just a member to the system) uploads a batch of papers for distribution
+- Can we mix diagrams and the requirements section? E.g. Could we write under mandatory requirements: The sysmem supports this activity diagram for the external review use case
+- Should be track reviews et cetera after their deadlines have expired
+- How should the associate receive the reviews of the batch of papers. In what form should they be downloadable
