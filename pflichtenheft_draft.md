@@ -81,3 +81,4 @@ The goal of this phase is to assign the papers in a way which satisfies as many 
 1. Reminder notifications if a deadline is approaching
 1. Ability to add full-text comments to a Feedback?
 1. Changable deadlines?
+1. Is it ok if Repos are public?
