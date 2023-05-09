@@ -5,6 +5,10 @@
 - Each faculty member owns zero or one accounts
 - Each member can act as an author as well as a reviewer
 - A member has an overview of all reviews that have been requested from him and have not yet been reviewed by him
+- When submitting a review request, the author can can and must designate a deadline, the pdf of the paper, the author of the paper, the list of assignees for that
+review request
+- Each paper is associated with a deadline after which no more reviews can be submitted and only the author can view the paper anymore
+- The author can delete papers after their review deadline has expired
 
 #### Review
 - k
@@ -29,7 +33,7 @@
 ## Diferentiation criteria
 - there will only be one distribution mechanism implemented
 - There will be no tracking or history of past reviews
-- third
+- After a submission is created, it can't be changed. This includes, the paper file, the deadline and the assignees
 
 
 # Definitions
@@ -50,6 +54,7 @@
 1. **Feedback Form**: A standartized form for given feedback. It constitutes of standardized questions which must be scored.
 1. **Feedback**: A filled-out Feedback Form which resembles the opinion formed after a review
 1. **Review Request**: The request of an author to one or more assignees for a paper he has written.
+1. **Submit a review request**: The process of an author of a paper uploading this paper and creating a review request for that paper, notifying the list of assignees of that request
 1. **Internal Review**: A review that is requested of a faculty member by another faculty member for a paper which he has written
 1. **External Review**: A review that is requested by a conference from a faculty member. During external review, the members don't have the option to deny review requests.
 Therefore, in this context, the assignee and the reviewer of a paper are always identical
@@ -62,13 +67,14 @@ The goal of this phase is to assign the papers in a way which satisfies as many 
 1. **Paper Distribution Mechanism**: An algorithm which calculates the assignment of a batch of papers to the reviewers. This mechanism ends, i.e. executes the paper distribution
 
 # Questions
-- How to handle admin
-- Can we get access to a gitlab instance please???
-- Should internal reviewers accept or reject reviews? -> Dictates the definition of assignee and reviewer
-- Exemplary functional specification, website is down
-- Observation: What entity should a conference resemble? Possibilities:
-    - A conference could be registered along the associate who receives batches of papers for that conference
-    - A conference could semantically just be a string which is attached to a batch of papers when an associate (who is just a member to the system) uploads a batch of papers for distribution
-- Can we mix diagrams and the requirements section? E.g. Could we write under mandatory requirements: The sysmem supports this activity diagram for the external review use case
-- Should be track reviews et cetera after their deadlines have expired
-- How should the associate receive the reviews of the batch of papers. In what form should they be downloadable
+1. How to handle admin
+1. Can we get access to a gitlab instance please???
+1. Should internal reviewers accept or reject reviews? -> Dictates the definition of assignee and reviewer
+1. Exemplary functional specification, website is down
+1. Observation: What entity should a conference resemble? Possibilities:
+    1. A conference could be registered along the associate who receives batches of papers for that conference
+    1. A conference could semantically just be a string which is attached to a batch of papers when an associate (who is just a member to the system) uploads a batch of papers for distribution
+1. Can we mix diagrams and the requirements section? E.g. Could we write under mandatory requirements: The sysmem supports this activity diagram for the external review use case
+1. Should be track reviews et cetera after their deadlines have expired
+1. How should the associate receive the reviews of the batch of papers. In what form should they be downloadable
+1. Reminder notifications if a deadline is approaching
