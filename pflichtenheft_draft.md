@@ -9,7 +9,7 @@
 review request
 - Each paper is associated with a deadline after which no more reviews can be submitted and only the author can view the paper anymore
 - The author can delete papers after their review deadline has expired
-
+- The author is notified when a new review was submitted
 #### Review
 - k
 
@@ -34,6 +34,7 @@ review request
 - there will only be one distribution mechanism implemented
 - There will be no tracking or history of past reviews
 - After a submission is created, it can't be changed. This includes, the paper file, the deadline and the assignees
+- There wont be an extra pdf editor
 
 
 # Definitions
@@ -79,3 +80,4 @@ The goal of this phase is to assign the papers in a way which satisfies as many 
 1. How should the associate receive the reviews of the batch of papers. In what form should they be downloadable
 1. Reminder notifications if a deadline is approaching
 1. Ability to add full-text comments to a Feedback?
+1. Changable deadlines?
