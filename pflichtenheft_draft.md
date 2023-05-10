@@ -43,17 +43,18 @@ review request
 
 
 # Definitions
-1. **Researcher**: A member of the scientific community who writes research papers.
+LOESCHEN 1. **Researcher**: A member of the scientific community who writes research papers.
 1. **Faculty**: The administrative entity that the system is deployed for
 1. **(Faculty) Member**: A researcher of the faculty the system is deployed under
-1. **Account**: Virtual representation of a faculty member that only the corresponding member can access.
+1. **Account**: Virtual representation/identity??? of a faculty member that only the corresponding member can access.
 1. **(Research) Paper**: A research paper, written by either a faculty member or a an external researcher
 1. **Abstract**: The official summary of a paper. The abstract is part of the paper itself.
 1. **Author (of a paper)**: The person who wrote the paper
     1. **Member author**: An author who is also a member
     1. **External author**: An author who is not a member
-1. **System**: The parts of the application that is under development. Includes the accounts as well as the servers, database systems and the deployed webiste.
-1. **Review**: The process of reading a paper and forming a diverse opion on aspects of the quality of the paper. A review ends in feedback by the reviewer to the author.
+1. **System**: The parts of the application that are under development. Includes the accounts as well as the servers, database systems and the deployed website.
+1. **Review Process**: The process of reading a paper and forming a diverse opion on aspects of the quality of the paper. A review ends in feedback by the reviewer to the author.
+1. **Review**: The representation of an opinion formed during the review process. For the purposes of this app, this constitutes the filled-out feedback form and an attachment to this form.
 1. **Deadline**: A date before which a review has to be completed by an assignee.
 1. **Assignee of a paper**: A Member which was asked by the author of the paper to review that paper
 1. **Reviewer of a paper**: A member who intends to review a given paper
@@ -93,3 +94,4 @@ The goal of this phase is to assign the papers in a way which satisfies as many 
 1. Feedback form? How does it look? What questions are there, exactly?
 1. Should you be able to edit submissions? Reviews?
     - Should you be able to save work in progress feedback forms?
+1. Was laedt man beim Review hoch? Auch das kommentierte PDF oder nur das Feedback Form?
