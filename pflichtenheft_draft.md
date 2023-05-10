@@ -10,12 +10,19 @@ review request
 - Each paper is associated with a deadline after which no more reviews can be submitted and only the author can view the paper anymore
 - The author can delete papers after their review deadline has expired
 - The author is notified when a new review was submitted
+- The assignee is notified when the review request for him is created
 - Neither the number of accounts, nor the number of papers in the system is limited
 - The number of reviews any member can do and request is not limited
 - The number of papers per authors is unlimited
+
+TODO:
+- Papers can be uploaded
+- blablabla
+- Users can log in
+- Review form
     
 ##### External Review
-- external papers are distributed equally between the faculty members using a rating algorithm 
+- external papers are distributed fairly between the faculty members using a rating algorithm
 - grouping of external papers in conference groups
 
 ##### Internal Review
