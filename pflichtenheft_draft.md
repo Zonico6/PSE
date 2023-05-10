@@ -10,6 +10,9 @@ review request
 - Each paper is associated with a deadline after which no more reviews can be submitted and only the author can view the paper anymore
 - The author can delete papers after their review deadline has expired
 - The author is notified when a new review was submitted
+- Neither the number of accounts, nor the number of papers in the system is limited
+- The number of reviews any member can do and request is not limited
+- The number of papers per authors is unlimited
     
 #### Review
 -...
