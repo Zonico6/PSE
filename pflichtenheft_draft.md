@@ -10,19 +10,27 @@ review request
 - Each paper is associated with a deadline after which no more reviews can be submitted and only the author can view the paper anymore
 - The author can delete papers after their review deadline has expired
 - The author is notified when a new review was submitted
+    
 #### Review
-- k
+-...
+<!-- TODO: Check which criteria a review has to cover-->
 
 ##### External Review
--
-...
+- external papers are distributed equally between the faculty members using a rating algorithm 
+- grouping of external papers in conference groups
 
 ##### Internal Review
 - After a deadline has expired, the paper can be viewed by the author alongside all feedbacks the paper has received
-...
+- assigned reviwers can either accept or reject a review request
+- the author can assign reviewers, which in turn will be notified about their assignment 
+- 
 
 ### Optional
-- 
+- live notfications of assigments, submits usw
+- categorization of papers (topic groups?)
+- Review counter + leader board ;D
+- Uploading papers in batches 
+- Profile status (reviewing, free, blocked ...)
 
 ### Non-Functional
 - Neither the number of accounts, nor the number of papers in the system is limited
