@@ -10,11 +10,10 @@ review request
 - Each paper is associated with a deadline after which no more reviews can be submitted and only the author can view the paper anymore
 - The author can delete papers after their review deadline has expired
 - The author is notified when a new review was submitted
+- Neither the number of accounts, nor the number of papers in the system is limited
+- The number of reviews any member can do and request is not limited
+- The number of papers per authors is unlimited
     
-#### Review
--...
-<!-- TODO: Check which criteria a review has to cover-->
-
 ##### External Review
 - external papers are distributed equally between the faculty members using a rating algorithm 
 - grouping of external papers in conference groups
@@ -23,20 +22,18 @@ review request
 - After a deadline has expired, the paper can be viewed by the author alongside all feedbacks the paper has received
 - assigned reviwers can either accept or reject a review request
 - the author can assign reviewers, which in turn will be notified about their assignment 
-- 
 
 ### Optional
 - live notfications of assigments, submits usw
 - categorization of papers (topic groups?)
+<!-- boah weiss ich nicht leute... -->
 - Review counter + leader board ;D
 - Uploading papers in batches 
 - Profile status (reviewing, free, blocked ...)
+- There exists an algorithm to read paper title and abstract out of the pdfs
+- overview over notifications
 
 ### Non-Functional
-- Neither the number of accounts, nor the number of papers in the system is limited
-- The number of reviews any member can do and request is not limited
-- The number of papers per authors is unlimited
-<!-- TODO: Are these functional or not? -->
 
 ## Diferentiation criteria
 - there will only be one distribution mechanism implemented
@@ -90,3 +87,9 @@ The goal of this phase is to assign the papers in a way which satisfies as many 
 1. Ability to add full-text comments to a Feedback?
 1. Changable deadlines?
 1. Is it ok if Repos are public?
+1. Other groups always have kann/muss criteria instead of mandatory and optional
+1. Deadline optional
+1. Bell in the frontend which displays the notifications?
+1. Feedback form? How does it look? What questions are there, exactly?
+1. Should you be able to edit submissions? Reviews?
+    - Should you be able to save work in progress feedback forms?
