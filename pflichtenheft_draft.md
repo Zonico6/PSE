@@ -2,30 +2,47 @@
 ## Functional
 ### Mandatory
 #### General
+- Neither the number of accounts, nor the number of papers in the system is limited
+
+##### Users
 - Each faculty member can own one accounts
 - Each member can act as an author as well as a reviewer
+- Can log in by using their email and password
+- Can logout by pressing a "logout" button
+- Can reset their password?
+- Can delete their account?
 - A member has an overview of all reviews that have been requested from him and have not yet been reviewed by him
-- When submitting a review request, the author can can and must designate a deadline, the pdf of the paper, the author of the paper, the list of assignees for that
-review request
-- Each paper is associated with a deadline after which no more reviews can be submitted and only the author can view the paper anymore
 - The author can delete papers after their review deadline has expired
 - The author is notified when a new review was submitted
 - The assignee is notified when the review request for him is created
-- Neither the number of accounts, nor the number of papers in the system is limited
-- The number of reviews any member can do and request is not limited
-- The number of papers per authors is unlimited
+- No one except for the author can see the submitted reviews
+- Have an inbox where they get an overview of their notifications
+- Receive each notifiaction also per e-mail
+- 
 
-TODO:
-- Papers can be uploaded
-- blablabla
-- Users can log in
-- Review form
-    
-##### External Review
+##### Papers
+- Each paper is associated with a deadline after which no more reviews can be submitted and only the author can view the paper anymore
+- Papers can be uploaded as pdf 
+- Papers are in correaltion with the author
+- Papers are downloadable as pdf
+- Each internal paper has an abstract attached to it
+- When submitting a paper, the author can and must designate a deadline, the pdf of the paper, the author of the paper, the list of assignees for that review request
+- The number of papers per authors is unlimited
+- A paper has only exactly 1 author
+- The author is automatically assigned when uploading the paper and is the uploader
+-  
+
+#####Reviews
+- The number of reviews any member can do and request is not limited
+- Can be accepted or rejected by the assignee
+- Each member is only to be assgined once to a given paper
+
+
+###### External Review
 - external papers are distributed fairly between the faculty members using a rating algorithm
 - grouping of external papers in conference groups
 
-##### Internal Review
+###### Internal Review
 - After a deadline has expired, the paper can be viewed by the author alongside all feedbacks the paper has received
 - assigned reviwers can either accept or reject a review request
 - the author can assign reviewers, which in turn will be notified about their assignment 
