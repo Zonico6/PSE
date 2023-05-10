@@ -2,7 +2,7 @@
 ## Functional
 ### Mandatory
 #### General
-- Each faculty member owns zero or one accounts
+- Each faculty member can own one accounts
 - Each member can act as an author as well as a reviewer
 - A member has an overview of all reviews that have been requested from him and have not yet been reviewed by him
 - When submitting a review request, the author can can and must designate a deadline, the pdf of the paper, the author of the paper, the list of assignees for that
@@ -55,17 +55,17 @@ LOESCHEN 1. **Researcher**: A member of the scientific community who writes rese
 1. **System**: The parts of the application that are under development. Includes the accounts as well as the servers, database systems and the deployed website.
 1. **Review Process**: The process of reading a paper and forming a diverse opion on aspects of the quality of the paper. A review ends in feedback by the reviewer to the author.
 1. **Review**: The representation of an opinion formed during the review process. For the purposes of this app, this constitutes the filled-out feedback form and an attachment to this form.
+1. **Review Form**: A standartized form for given feedback. It constitutes of standardized questions which must be scored.
 1. **Deadline**: A date before which a review has to be completed by an assignee.
 1. **Assignee of a paper**: A Member which was asked by the author of the paper to review that paper
 1. **Reviewer of a paper**: A member who intends to review a given paper
-1. **Feedback Form**: A standartized form for given feedback. It constitutes of standardized questions which must be scored.
-1. **Feedback**: A filled-out Feedback Form which resembles the opinion formed after a review
-1. **Review Request**: The request of an author to one or more assignees for a paper he has written.
-1. **Submit a review request**: The process of an author of a paper uploading this paper and creating a review request for that paper, notifying the list of assignees of that request
-1. **Internal Review**: A review that is requested of a faculty member by another faculty member for a paper which he has written
-1. **External Review**: A review that is requested by a conference from a faculty member. During external review, the members don't have the option to deny review requests.
+1. **Review Request**: The request of an author to exactly one assignee for a paper he has written.
+1. **Uploading a (batch of) paper(s)**: Submitting the pdf (or other artifact) of a paper to the sysmtem and supplying additional information such as deadline and comment. This does not yet send review requests. In external review, this starts the distribution phase. TODO: Who gets the notification/ is everyone included or only selected
+1. **Create a review request**: The author of an uploaded paper selects a new assignee and sends a review request to this assignee
+1. **Internal Review Request**: A review that is requested of a faculty member by another faculty member for a paper which he has written
+1. **External Review Request**: A review that is requested by a conference from a faculty member. During external review, the members don't have the option to deny review requests.
 Therefore, in this context, the assignee and the reviewer of a paper are always identical
-1. **Conference Associate**: A person at the faculty who receives the batch of papers from any particular conference
+1. **Conference Associate**: A person at the faculty who receives the batch of papers from any particular conference.
 1. **External Review Process**: The process of a conference requesting external review of a batch of papers from a faculty
 1. **Conference**: An entity which receives papers and distributes those papers to faculties, requesting external reviews of all the papers they send to a faculty
 1. **Batch of papers (for external review)**: A group of papers which have been collectively sent to a faculty by a conference for external review
@@ -91,7 +91,10 @@ The goal of this phase is to assign the papers in a way which satisfies as many 
 1. Other groups always have kann/muss criteria instead of mandatory and optional
 1. Deadline optional
 1. Bell in the frontend which displays the notifications?
-1. Feedback form? How does it look? What questions are there, exactly?
+1. Feedback form? How does it look? What questions are there, exactly? Do you attach a commented pdf/an artifact to it? Whats different between internal and external review?
 1. Should you be able to edit submissions? Reviews?
     - Should you be able to save work in progress feedback forms?
 1. Was laedt man beim Review hoch? Auch das kommentierte PDF oder nur das Feedback Form?
+1. Wie sollen die Definitionen funktionieren
+1. Nur PDF oder auch andere File Types
+1. Soft or hard deadline?
