@@ -3,6 +3,10 @@
 ### Mandatory
 #### General
 - Neither the number of accounts, nor the number of papers in the system is limited
+- Keep track of notifications
+- Aggregations like this paper was created, that many users were notified
+- Edit paper details
+- Details of the paper: Add authors
 
 ##### Users
 - Each faculty member can own one accounts
@@ -32,7 +36,7 @@
 - The author is automatically assigned when uploading the paper and is the uploader
 -  
 
-#####Reviews
+##### Reviews
 - The number of reviews any member can do and request is not limited
 - Can be accepted or rejected by the assignee
 - Each member is only to be assgined once to a given paper
@@ -56,15 +60,19 @@
 - Profile status (reviewing, free, blocked ...)
 - There exists an algorithm to read paper title and abstract out of the pdfs
 - overview over notifications
+- Optimized for mobile
+- Fix typos in the pdf or something (dont know if i got that correctly)
 
 ### Non-Functional
+- Resilience against mailicious and 
+- Confidentiality
 
 ## Diferentiation criteria
 - there will only be one distribution mechanism implemented
 - There will be no tracking or history of past reviews
 - After a submission is created, it can't be changed. This includes, the paper file, the deadline and the assignees
 - There wont be an extra pdf editor
-
+- Only pdf
 
 # Definitions
 LOESCHEN 1. **Researcher**: A member of the scientific community who writes research papers.
@@ -99,21 +107,28 @@ The goal of this phase is to assign the papers in a way which satisfies as many 
 
 # Questions
 1. How to handle admin
+-> keycloak
 1. Can we get access to a gitlab instance please???
+-> gitlab.scc.kit.edu
 1. Should internal reviewers accept or reject reviews? -> Dictates the definition of assignee and reviewer
+-> Yeah thats fine
 1. Exemplary functional specification, website is down
 1. Observation: What entity should a conference resemble? Possibilities:
     1. A conference could be registered along the associate who receives batches of papers for that conference
     1. A conference could semantically just be a string which is attached to a batch of papers when an associate (who is just a member to the system) uploads a batch of papers for distribution
-1. Can we mix diagrams and the requirements section? E.g. Could we write under mandatory requirements: The sysmem supports this activity diagram for the external review use case
+<!-- 1. Can we mix diagrams and the requirements section? E.g. Could we write under mandatory requirements: The sysmem supports this activity diagram for the external review use case -->
 1. Should be track reviews et cetera after their deadlines have expired
+-> Its possible to delete stuff and requests
 1. How should the associate receive the reviews of the batch of papers. In what form should they be downloadable
 1. Reminder notifications if a deadline is approaching
+-> No / optional
 1. Ability to add full-text comments to a Feedback?
 1. Changable deadlines?
 1. Is it ok if Repos are public?
+-> Everything is editable
 1. Other groups always have kann/muss criteria instead of mandatory and optional
 1. Deadline optional
+yes
 1. Bell in the frontend which displays the notifications?
 1. Feedback form? How does it look? What questions are there, exactly? Do you attach a commented pdf/an artifact to it? Whats different between internal and external review?
 1. Should you be able to edit submissions? Reviews?
@@ -122,3 +137,12 @@ The goal of this phase is to assign the papers in a way which satisfies as many 
 1. Wie sollen die Definitionen funktionieren
 1. Nur PDF oder auch andere File Types
 1. Soft or hard deadline?
+1. Only Darius will do the phase presentation
+
+# Design
+- Creation of the conference should be separate of the paper upload
+- Menu / Breadcrumbs / site direction
+
+# Feedback
+Presentation: 10 minutes-ish, short summary
+
