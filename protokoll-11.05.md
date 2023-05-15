@@ -11,6 +11,7 @@
 - Each paper belongs to one conference
 - Conference internal and external areas
 - Comment field in the paper
+- The application includes user management and authentification for the users
 
 External
 - 
@@ -46,6 +47,9 @@ Changes:
 - Uploading a batch of papers -> Different defintions depending on the distribution mechanism
 - Create a review request -> not needed
 - Associate 
+- Assigned -> Requested
+- Reviewer -> Accepted
+- Authro -> Owner
 
 Write paragraphs instead of the bullet points
 
